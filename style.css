@@ -97,20 +97,25 @@ nav{
 }
 
 .image{
-    width: 300px;
+    width: 400px;
     height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
 }
+#photo{
+    position: absolute;
+    text-align: center;
+
+}
 
 .ap1{
-    margin-top: 12%;
+    margin-top: 8%;
 }
-.ap1 h2{
+/* .ap1 h2{
     margin-top: 5%;
-}
+} */
 
 .c1{
     margin-top: 12%;
