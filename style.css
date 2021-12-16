@@ -1,0 +1,140 @@
+/* structure des pages du site */
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+ 
+}
+body{
+    background-image: url('./images/background0.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section{
+    display:none;
+}
+
+section:target{
+    display:block;
+    height: 100vh;
+}
+
+#accueil:target{
+    display : block;
+}
+#A:target{
+    display : block;
+}
+#accueil:target{
+    display : block;
+}
+#accueil:target{
+    display : block;
+}
+#Formation:target{
+    display : block;
+}
+#Contact:target{
+    display : block;
+}
+a{
+    text-decoration:none !important;
+    color : black;
+    padding: 5px;
+    position: relative;
+    transition-duration: 1s;
+    border : solid 1px #585858;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgoldenrod;
+    margin-top: 0px;
+    border: solid 4px silver;
+    height: 75px;
+    padding: 0 7px;
+    box-shadow: 4px 4px 15px -7px black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#Accueil{
+    background-color: rgba(209, 209, 223, 0.884);
+    border-radius: 5px 10px 0 5px;
+}
+
+#A_Propos{
+    background-color: rgba(209, 209, 223, 0.884);
+}
+
+#Compétences{
+    background-color: rgba(209, 209, 223, 0.884);
+}
+
+#Expérience{
+    background-color: rgba(209, 209, 223, 0.884);
+}
+
+#Formation{
+    background-color: rgba(209, 209, 223, 0.884);
+}
+
+#Contact{
+    background-color: rgba(209, 209, 223, 0.884);
+}
+.ac1{
+    margin-top: 12%;
+    display: flex;
+}
+.ac1 h2{
+    margin-top: 5%;
+}
+
+.image{
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ap1{
+    margin-top: 12%;
+}
+.ap1 h2{
+    margin-top: 5%;
+}
+
+.c1{
+    margin-top: 12%;
+}
+.c1 h2{
+    margin-top: 5%;
+}
+
+.co1{
+    margin-top: 12%;
+}
+.co1 h2{
+    margin-top: 5%;
+}
+
+.ex1{
+    margin-top: 12%;
+}
+.ex1 h2{
+    margin-top: 5%;
+}
+.f1{
+    margin-top: 12%;
+}
+.f1 h2{
+    margin-top: 5%;
+}
