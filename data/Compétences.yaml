@@ -1,7 +1,42 @@
-Domaines : Français, Espagnol, Réseau, Développement 
-Items pour chaque domaine : F,E, Cisco packet tracer/wireshark/ VMs, HTML/PHP/css/Yaml/SQL
-
-
-Pour chaque item :
-niveau sous la forme d’une barre ou d’étoiles :
-score aux certifications :
+-
+   domaine: développement
+   items:
+      -
+         nom: HTML
+         niveau: 80%
+      -
+         nom: CSS
+         niveau: 50%
+      -
+         nom: PHP
+         niveau: 30%
+      -
+         nom: SQL
+         niveau: 30%
+-
+   domaine: réseaux
+   items:
+      -
+         nom: LINUX
+         niveau: 30%
+      -
+         nom: Mise en place Service DNS
+         niveau: 60%
+      -
+         nom: Mise en place Service DHCP
+         niveau: 80%
+      -
+         nom: Mise en place Service HTTP
+         niveau: 20%
+-
+   domaine: langues
+   items:
+      -
+         nom: FRANCAIS
+         niveau: 100%
+      -
+         nom: ANGLAIS
+         niveau: 50%
+      -
+         nom: ESPAGNOLE
+         niveau: 65%
